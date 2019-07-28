@@ -1,5 +1,5 @@
 # CSS Grid Calendar
-An experiment with React and CSS Grid create a week view of a calendar and add events.
+An experiment with React and CSS Grid to create a week view of a calendar and add events.
 
 ![Calendar](https://i.imgur.com/0Ucl6bT.png "Calendar")
 
