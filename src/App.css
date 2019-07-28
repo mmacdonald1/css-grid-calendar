@@ -23,6 +23,38 @@
   color: #61dafb;
 }
 
+.calendar{
+  margin: 0px 20px;
+  display:grid;
+  grid-template-columns: 1fr repeat(7, 1fr);
+  grid-template-rows: 30px 30px repeat(96, 20px);
+  grid-auto-flow: dense;
+  height:500px;
+  overflow: hidden;
+  overflow:scroll;
+}
+.item{
+  border: 1px solid #C6CED1;
+  background-color: #CFD8DB;
+}
+.time{
+  grid-column-start: 1;
+  border-right: 1px solid #CFD8DB;
+  border-left: 1px solid #CFD8DB;
+  background-color: #E8F2F6;
+}
+.time:nth-child(odd){
+  border-top: 1px solid #CFD8DB;
+}
+.cell{
+  border: 1px solid #E8F2F6;
+}
+.event{
+  background-color: #FAC96C;
+  margin: 0px 2px;
+}
+/* other */
+a { color: blue; }
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
